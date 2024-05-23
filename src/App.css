@@ -2,37 +2,254 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
+
+th {
+  background-color: #051923;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+
+.BG{
+  background: url('./IMAGE.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: auto;
+}
+
+.padding{
+  padding-bottom: 250px;
+}
+.padding2{
+  padding-bottom:130px;
+
+}
+.container {
+  width: 325px;
+  margin: auto;
+  margin-top: 4%;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  height: auto;
+  background:#40916c;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #051923;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #051923;
+  padding: 10px 0; 
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.Footer div {
+  margin: 0 20px; 
+}
+
+.Footer h1 {
+  font-size: 32px;
+  margin: 0; 
+  color: wheat; 
+}
+
+
+.Header{
+  text-align: center;
+  font-size: 35px;
+  background-color: #051923;
+  color: white;
+  font-weight: bold;
+ 
+  padding: 5px;
+
+}
+
+
+.Main{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.LeftButton{
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  background-color: #051923;
+  font-size: 20px;
+}
+
+.underline{
+  text-decoration: none;
+  color: white;
+
+}
+
+.RightButton{
+  border: none;
+  padding: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;  
+   background-color: #00aaff;
+   font-size: 20px;
+
+}
+
+
+.user{
+  text-align: right;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.header_lib{
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-size: 30px;
+}
+
+
+.search{
+  width:250px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 10%;
+  padding-left: 10px;
+}
+
+.select{
+  width: auto;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 10%;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.edit{
+  color: #40916c;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0056b3;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.book_main{
+padding-bottom: 150px;
+}
+
+.download{
+  color: #40916c;
+  width: 190px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0056b3;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.download_cnt{
+  display: flex;
+  justify-content: center;
+}
+
+
+.pagination{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pagination button
+{
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0056b3;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.pagination span{
+font-size: 20px;
+}
+
+
+
